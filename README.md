@@ -44,3 +44,9 @@ Rows were matched to header channels BY NAME, never by position (exact; then cas
 58 channels.tsv rows had no channel in the data file (6 files) and were removed; they are kept verbatim under `sourcedata/channels-removed-2026-10-18/` (same relative path). Examples: `sub-R1063C_ses-0_task-YC1_acq-bipolar_ieeg.edf`: LHH4-LHH5, LHH10-LHH11, LHH5-LHH6, RHB7-RHB10, RHB6-RHB7; `sub-R1063C_ses-1_task-YC1_acq-bipolar_ieeg.edf`: LHH4-LHH5, LHH10-LHH11, LHH5-LHH6, RHB7-RHB10, RHB6-RHB7; `sub-R1066P_ses-0_task-YC1_acq-bipolar_ieeg.edf`: LDA1-LDA2, LDA2-LDA3, LDA3-LDA4, LDH1-LDH2, LDH2-LDH3.
 
 Applied by position, the former rows would have given wrong labels to 238 channels in 6 files (rows missing, extra or out of order before that position).
+
+## Electrode locations (19 Oct 2026)
+
+Sub-R1013E ses-0 MNI x/y/z from ses-1 (were outside the head) (proposal A3, Lane G round 4). Evidence: sub-R1013E ses-0 MNI x/y/z were outside any head (z -402..-318). The same file's tal.x/y/z are in range and identical, for all 121 shared contacts, to ses-1 of this deposit, whose MNI x/y/z are in range and identical to on004809 ses-0 and on005523 ses-1 (126/126 rows). The 121 shared contacts take the ses-1 MNI x/y/z; RLT2/4/6/8/10 (no ses-1 counterpart) are n/a; no other column changed.
+
+Full evidence per dataset: REPORT-ieeg-locations.md and ieeg_locations.json (Lane G, 19 Oct 2026). This dataset mirrors OpenNeuro; the same change belongs upstream. Local branch only.
