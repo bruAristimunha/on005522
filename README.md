@@ -49,4 +49,4 @@ Applied by position, the former rows would have given wrong labels to 238 channe
 
 Sub-R1013E ses-0 MNI x/y/z from ses-1 (were outside the head) (proposal A3, Lane G round 4). Evidence: sub-R1013E ses-0 MNI x/y/z were outside any head (z -402..-318). The same file's tal.x/y/z are in range and identical, for all 121 shared contacts, to ses-1 of this deposit, whose MNI x/y/z are in range and identical to on004809 ses-0 and on005523 ses-1 (126/126 rows). The 121 shared contacts take the ses-1 MNI x/y/z; RLT2/4/6/8/10 (no ses-1 counterpart) are n/a; no other column changed.
 
-Full evidence per dataset: REPORT-ieeg-locations.md and ieeg_locations.json (Lane G, 19 Oct 2026). This dataset mirrors OpenNeuro; the same change belongs upstream. Local branch only.
+The evidence for this change is stated in this section (the dataset's own files, the cited paper and the identical sibling deposits named above). This dataset mirrors OpenNeuro; the same change belongs upstream.
